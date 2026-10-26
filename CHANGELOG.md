@@ -36,6 +36,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- `deja stats --year` says "1 session", "1 turn" and "1 record" on every
+  line, not only the first, and the verbs agree. From @dannyward630 (#5655,
+  #5658).
 - opencode shows the per-prompt line. The plugins kept only the model's half
   of the reply, so the line reached nobody while deja counted it shown and
   held the next one back twenty minutes. opencode 1.x and Kilo now toast it.
